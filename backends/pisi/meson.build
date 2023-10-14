@@ -19,8 +19,11 @@ install_data(
   install_dir: join_paths(get_option('datadir'), 'PackageKit', 'helpers', 'pisi'),
   install_mode: 'rwxr--r--',
 )
+<<<<<<< HEAD
 
 install_data(
   'groups.list',
   install_dir: join_paths(get_option('sysconfdir'), 'PackageKit', 'pisi.d')
 )
+=======
+>>>>>>> origin/main
